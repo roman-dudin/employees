@@ -30,7 +30,7 @@ namespace EmployeesCoreConcole
         {
             var path = System.Configuration.ConfigurationManager.AppSettings["EmployeesFilePath"];
             emplHelper = new EmployeesHelper(path);
-            Console.WriteLine("-- Initialized --");
+            Console.WriteLine("-- Initialized -- ");
         }
 
         private static void ExecuteCommand(string command)
